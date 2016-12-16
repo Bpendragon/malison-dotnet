@@ -15,3 +15,10 @@ Tests.VisualState.xml
 
 # ignore revert backups
 **.orig
+
+
+# switch to regexp syntax.
+syntax: regexp
+#ignore visual studio upgrade backups
+^/Backup
+^UpgradeLog.htm
